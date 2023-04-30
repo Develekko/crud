@@ -127,7 +127,7 @@ function searchProduct(term)
 
 function validateProduct(term)
 {
-  var regex = /^([A-Z]|[a-z]){3,15}$/
+  var regex = /^([A-Z]|[a-z]){1,15}$/
   if(regex.test(productName.value) == true)
   {
     return true;
